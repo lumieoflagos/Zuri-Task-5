@@ -78,7 +78,7 @@ input:focus:invalid {
 }
 input:focus:invalid~.error::after {
     content: attr(data-error);
-    position: absolute;
+    position: relative;
     bottom: 0;
     font-style: italic;
     font-size: 14px;
